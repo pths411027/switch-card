@@ -59,6 +59,13 @@
   justify-items: flex-end;
   cursor: pointer;
 }
+.button:hover {
+  color: #ff8473;
+}
+.button:active {
+  color: #000000;
+  font-size: 18px;
+}
 
 .dots_container {
   display: flex;

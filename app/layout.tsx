@@ -10,9 +10,9 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
-        <title>Scenery card</title>
+        <title>Switch card</title>
         <link rel="icon" type="image/x-icon" href="/favicon.io" />
-        <meta name="description" content="Scenery card" />
+        <meta name="description" content="Switch card" />
       </head>
       <body
         className={inter.className}
