@@ -1,5 +1,3 @@
-import type { Metadata } from "next";
-import Head from "next/head";
 import { Inter } from "next/font/google";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -16,7 +14,12 @@ export default function RootLayout({
         <link rel="icon" type="image/x-icon" href="/favicon.io" />
         <meta name="description" content="Scenery card" />
       </head>
-      <body className={inter.className}>{children}</body>
+      <body
+        className={inter.className}
+        style={{ padding: "0px", margin: "0px" }}
+      >
+        {children}
+      </body>
     </html>
   );
 }
